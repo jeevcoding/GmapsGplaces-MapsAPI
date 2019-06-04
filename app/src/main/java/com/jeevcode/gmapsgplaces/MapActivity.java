@@ -53,7 +53,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     private static final String COARSE_LOCATION = Manifest.permission.ACCESS_COARSE_LOCATION;
     private static final float DEFAULT_ZOOM = 15F;
 
-    private Boolean mlocationPermissionsGranted = false;
+    public Boolean mlocationPermissionsGranted = true;
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1234;
     private GoogleMap mMap;
     private FusedLocationProviderClient mfusedlocationproviderclient;
@@ -285,27 +285,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         }
 
     }
-
-
-
-
-
-
-
-
-
-
-
-    //the following is the copy pasted moveCamera
-
-
-
-
-
-
-
-
-
 
 
 
